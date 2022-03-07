@@ -28,13 +28,14 @@ padding-left: 0px;
     width: 100%;
     background-color: azure;
     background-image: url("../img/contacto/fondo.jpg");
+    background-repeat: repeat-y;
 }
 
 .titulo{
     color: white;
     font-family: 'Great Vibes', cursive;
     font-size: 10vw;
-    padding: 3% 0 0 10%;
+    padding: .5% 0 0 8%;
 }
 .subtitulo{
     color: white;
@@ -53,21 +54,30 @@ padding-left: 0px;
     .portada{
         background-image: url("../img/principalV.jpg");
     }
+
+    .contacto{
+        background-image: url("../img/contacto/fondo2.jpg");
+        background-repeat: repeat-y;
+    }
 }
 
 @media (min-width: 668px) and (max-width: 820px){
     .portada{
         background-image: url("../img/principalH.jpg");
     }
+
+    .contacto{
+        background-image: url("../img/contacto/fondo2.jpg");
+        background-repeat: repeat-y;
+    }
 }
 
 .styleMapa{
     border-radius: 25px;
-    margin-top: 35%;
 }
 
 .formContact{
-    margin-top: 25%;
+    margin-top: 5%;
 }
 
 .correccionContact{
@@ -116,4 +126,21 @@ padding-left: 0px;
 .formPedSubt{
     margin-top: 2%;
     margin-bottom: 1%;
+}
+
+.logo{
+    width: 20%;
+}
+
+.titRedes{
+    margin-bottom: 7vh;
+    margin-left: 5vw;
+}
+
+h5{
+    font-size: 3em;
+}
+
+.mensajeImg{
+    font-size: 2em;
 }
