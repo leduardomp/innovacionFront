@@ -1,0 +1,224 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: ClarikaPro;
+    src: url("../fonts/ClarikaProGrotHvy/font.woff");
+}
+
+body{
+    width: 1024px;
+    margin: auto;
+    font-family: ClarikaPro, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.barnav{
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+}
+
+.elementBarA{
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.titMenu{
+    color: RGBA(59, 93, 212, 1.00);
+    margin-left: 20%;
+    font-size: 1.3em;
+}
+
+.elementBarB{
+    width: 65%;
+    height: 100%;
+    align-items:center;
+    text-align: center;
+    display: flex;
+}
+
+.elementMenu{
+    display: flexbox;
+    width: 120px;
+    color: RGBA(108, 122, 145, 1.00);
+    font-family: Fredoka, Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+}
+
+.elementMenu.active{
+    padding: 10px 10px 10px 10px;
+    background-color: RGBA(41, 75, 193, 1.00);
+    border-radius: 3px;
+    color: white;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.principal{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+
+.prinA{
+    display: flexbox;
+    width: 50%;
+    background-color: white;
+}
+
+.prinB{
+    display: flexbox;
+    width: 50%;
+    background-image: url("../img/enfermera.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -1;
+}
+
+.trianguloSuperior{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 60px 60px 0 60px;
+    border-color: #F4F6FB transparent transparent transparent;
+}
+
+.titPag{
+    color: RGBA(33, 63, 112, 1.00);
+    font-size: 2.7em;
+}
+
+.titPagSec{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.descPrin{
+    font-family: Fredoka, Arial, Helvetica, sans-serif ;
+    font-weight: lighter;
+    padding-right: 40%;
+    margin-top: 5%;
+    color: RGBA(111, 125, 148, 1.00);
+}
+
+.iconoAmarillo{
+    background-color: #FFF9E4;
+    box-shadow: 0px 0px 5px rgb(243, 239, 4);
+    width: 10vw;
+}
+
+.iconoAzul{
+    background-color: #EEF3FE;
+    box-shadow: 0px 0px 5px #EEF3FE;
+    width: 10vw;
+}
+
+.iconoSafe{
+    background-image: url("../img/iconos/shield.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.iconoEstrella{
+    background-image: url("../img/iconos/estrella.png");
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.contenedor{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.elementCar{
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.elementCar2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.textIcono{
+    display: flexbox;
+    margin-left: 8%;
+    font-family: Fredoka, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #213F70;
+}
+
+.textIcono2{
+    display: flexbox;
+    margin-left: 5%;
+    font-family: Fredoka, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #213F70;
+}
+
+.trianguloDerecha{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 85px 90px 85px 0;
+    border-color: transparent #F4F6FB transparent transparent;
+    float: right;
+    margin-top: -20%;
+}
+
+.correccionA{
+    margin-top: 30%;
+}
+
+.cuadro{
+    width: 736px;
+    height: 110px;
+    background-color: RGBA(250, 252, 254, 0.95);
+    border-radius: 5px;
+    box-shadow: 3px 7px 40px -15px rgba(96,163,255,1);
+    -webkit-box-shadow: 3px 7px 40px -15px rgba(96,163,255,1);
+    -moz-box-shadow: 3px 7px 40px -15px rgba(96,163,255,1);
+
+    display: flex;
+    margin-top: 3%;
+}
+
+.cuadroElement{
+    display: flexbox;
+    align-items: center;
+    width: 25%;
+}
+
+
+.empresas{
+    width: 100%;
+    height: 200px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #999;
+}
