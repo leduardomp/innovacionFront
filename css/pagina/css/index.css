@@ -1,3 +1,4 @@
+
 *{
   padding: 0;
   margin: 0;
@@ -16,7 +17,6 @@ body{
     width: 1024px;
     margin: auto;
     font-family: ClarikaPro, Arial, Helvetica, sans-serif;
-    background-color: black;
 }
 
 .margenIzq{
@@ -25,20 +25,6 @@ body{
 
 .margenDer{
     margin-right: 5%;
-}
-
-.btnElement{
-    width: 100px;
-    padding: 10px 10px 10px 10px;
-    background-color: RGBA(41, 75, 193, 1.00);
-    border-radius: 3px;
-    color: white;
-    text-align: center;
-    margin:0px auto;
-
-    box-shadow: -6px 29px 29px -22px rgba(44,79,190,1);
-    -webkit-box-shadow: -6px 29px 29px -22px rgba(44,79,190,1);
-    -moz-box-shadow: -6px 29px 29px -22px rgba(44,79,190,1);
 }
 
 .barnav{
@@ -56,8 +42,8 @@ body{
 }
 
 .titMenu{
-    color: RGBA(59, 93, 212, 1.00);
-    margin-left: 20%;
+    color: rgba(59, 93, 212, 1.00);
+    margin-left: 15%;
     font-size: 1.3em;
 }
 
@@ -72,9 +58,25 @@ body{
 .elementMenu{
     display: flexbox;
     width: 120px;
-    color: RGBA(108, 122, 145, 1.00);
+    color: rgba(108, 122, 145, 1.00);
     font-family: Fredoka, Arial, Helvetica, sans-serif ;
     font-weight: normal;
+}
+
+
+.btnElement{
+    width: 110px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(41, 75, 193, 1.00);
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    margin:0px auto;
+    
+    box-shadow: 0px 6px 10px -4px rgba(41, 75, 193, 1.00);
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(41, 75, 193, 1.00);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(41, 75, 193, 1.00);
+    
 }
 
 .principal{
@@ -107,7 +109,7 @@ body{
 }
 
 .titPag{
-    color: RGBA(33, 63, 112, 1.00);
+    color: rgba(33, 63, 112, 1.00);
     font-size: 2.7em;
 }
 
@@ -121,7 +123,7 @@ body{
     font-weight: lighter;
     padding-right: 40%;
     margin-top: 5%;
-    color: RGBA(111, 125, 148, 1.00);
+    color: rgba(111, 125, 148, 1.00);
 }
 
 .iconoAmarillo{
@@ -396,7 +398,7 @@ body{
     margin-left: 8%;
     font-family: Fredoka, Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     color: #213F70;
 }
 
@@ -437,19 +439,19 @@ body{
 }
 
 .correccionA{
-    margin-top: 30%;
+    margin-top: 28%;
 }
 
 .cuadro{
     width: 736px;
     height: 110px;
-    background-color: RGBA(250, 252, 254, 0.95);
+    background-color: rgba(250, 252, 254, 0.95);
     border-radius: 5px;
     box-shadow: 3px 7px 40px -15px rgba(96,163,255,1);
     -webkit-box-shadow: 3px 7px 40px -15px rgba(96,163,255,1);
     -moz-box-shadow: 3px 7px 40px -15px rgba(96,163,255,1);
     display: flex;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .cuadroElement{
@@ -477,7 +479,7 @@ body{
 
 .empresas{
     width: 100%;
-    height: 200px;
+    height: 210px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -529,9 +531,9 @@ body{
 
 .tituloSubtitArea{
     font-family: ClarikaPro, Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: 2.2em;
     font-weight: 300;
-    color: RGBA(33, 63, 112, 1.00);
+    color: rgba(33, 63, 112, 1.00);
 }
 
 .textSubtitArea{
@@ -539,7 +541,7 @@ body{
     width: 85%;
     font-family: Fredoka, Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: RGBA(109, 123, 146, 1.00);
+    color: rgba(109, 123, 146, 1.00);
 }
 
 .benefitsList{
@@ -561,7 +563,7 @@ body{
 
 .benefits.select{
     border: none;
-    background-color: RGBA(250, 252, 254, 0.95);
+    background-color: rgba(250, 252, 254, 0.95);
     box-shadow: -2px 50px 141px -41px rgba(173, 203, 248);
     -webkit-box-shadow: -2px 50px 141px -41px rgba(173, 203, 248);
     -moz-box-shadow: -2px 50px 141px -41px rgba(173, 203, 248);
@@ -574,7 +576,7 @@ body{
 .titBenefits{
     font-family: Fredoka, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: RGBA(33, 63, 112, 1.00);
+    color: rgba(33, 63, 112, 1.00);
     margin-top: 10%;
 }
 
@@ -583,12 +585,12 @@ body{
     font-weight: lighter;
     font-size: 12px;
     margin-top: 8%;
-    color: RGBA(109, 123, 146, 1.00);
+    color: rgba(109, 123, 146, 1.00);
 }
 
 .correccionP{
     float: inline-start;
-    margin-top: -1%;
+    margin-top: -3%;
 }
 
 .correcionLineaB{
@@ -617,7 +619,7 @@ body{
 }
 
 .seccAzul{
-    background-color: RGBA(52, 109, 217, 1.00);
+    background-color: rgba(52, 109, 217, 1.00);
     height: 450px;
 }
 
@@ -633,7 +635,7 @@ body{
 }
 
 .correccionWorks{
-    margin-top: -1%;
+    margin-top: 0%;
 }
 
 .works{
@@ -651,7 +653,7 @@ body{
 
 .workElement.select{
     border: none;
-    background-color: RGBA(250, 252, 254, 0.95);
+    background-color: rgba(250, 252, 254, 0.95);
     box-shadow: 1px 12px 34px -14px rgba(173, 203, 248);
     -webkit-box-shadow: 1px 12px 34px -14px rgba(173, 203, 248);
     -moz-box-shadow: 1px 12px 34px -14px rgba(173, 203, 248);
@@ -664,7 +666,7 @@ body{
 
 .titWork{
     font-family: Fredoka, Arial, Helvetica, sans-serif;
-    color: RGBA(3, 27, 100, 1.00);
+    color: rgba(3, 27, 100, 1.00);
     font-weight: normal;
     display: flexbox;
     margin-left: 5%;
@@ -677,7 +679,7 @@ body{
     font-family: Fredoka, Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: .8em;
-    color: RGBA(109, 123, 146, 1.00);
+    color: rgba(109, 123, 146, 1.00);
 }
 
 .desplega{
@@ -694,8 +696,8 @@ body{
 }
 
 .elementsEmergencyList{
-    margin-top: 20%;
-    color: RGBA(109, 123, 146, 1.00);
+    margin-top: 25%;
+    color: rgba(109, 123, 146, 1.00);
 }
 
 .rowElementEmergency{
@@ -718,7 +720,7 @@ body{
 
 .celElementEmergency.select{
     border: none;
-    background-color: RGBA(250, 252, 254, 0.95);
+    background-color: rgba(250, 252, 254, 0.95);
     box-shadow: 1px 12px 34px -14px rgba(173, 203, 248);
     -webkit-box-shadow: 1px 12px 34px -14px rgba(173, 203, 248);
     -moz-box-shadow: 1px 12px 34px -14px rgba(173, 203, 248);
@@ -731,31 +733,31 @@ body{
 .compEmergency{
     text-align: left;
     margin-left: 9%;
-    font-size: .8em;
+    font-size: .7em;
     color: #213F70;
 }
 
 .compTitEmergency{
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin-bottom: 3%;
 }
 
 .btnEmergency{
     margin: 0 auto;
     padding: 10px 10px 10px 10px;
-    background-color: RGBA(241, 245, 255, 1.00);
+    background-color: rgba(241, 245, 255, 1.00);
     border-radius: 3px;
-    color: RGBA(48, 81, 200, 1.00);
+    color: rgba(48, 81, 200, 1.00);
     text-align: center;
 }
 
 .btnEmergency.activo{
-    background-color: RGBA(41, 75, 193, 1.00);
+    background-color: rgba(41, 75, 193, 1.00);
     color: white;
 
-    box-shadow: 0px 32px 100px -42px rgba(44,79,190,1);
-    -webkit-box-shadow: 0px 32px 100px -42px rgba(44,79,190,1);
-    -moz-box-shadow: 0px 32px 100px -42px rgba(44,79,190,1);
+    box-shadow: 0px 6px 10px -4px rgba(41, 75, 193, 1.00);
+    -webkit-box-shadow: 0px 6px 10px -4px rgba(41, 75, 193, 1.00);
+    -moz-box-shadow: 0px 6px 10px -4px rgba(41, 75, 193, 1.00);
 }
 
 .correccionBotonesEmergency{
@@ -770,12 +772,12 @@ body{
 /* Footer */
 
 .footer{
-    background-color: RGBA(238, 243, 254, 1.00);
-    color: RGBA(109, 123, 146, 1.00);
+    background-color: rgba(238, 243, 254, 1.00);
+    color: rgba(109, 123, 146, 1.00);
 }
 
 .titFooter{
-    color: RGBA(59, 93, 212, 1.00);
+    color: rgba(59, 93, 212, 1.00);
     font-size: 1.4em;
     margin-bottom: 2%;
     margin-top: 8%;
@@ -794,14 +796,14 @@ body{
 }
 
 .celTableTitFoot{
-    color: RGBA(33, 63, 112, 1.00);
+    color: rgba(33, 63, 112, 1.00);
     padding-bottom: 15px;
 }
 
 .celTableFoot{
     padding-bottom: 15px;
     width: 230px;
-    font-size: .7em;
+    font-size: .8em;
     font-weight: lighter;
 }
 
@@ -825,10 +827,10 @@ body{
 .trianguloInferior{
     width: 0; 
     height: 0; 
-    border-bottom: 120px solid #E2E9F8;
-    border-right: 120px solid transparent;
-    border-left: 120px solid transparent;
-    margin-left: 73%;
+    border-bottom: 130px solid #E2E9F8;
+    border-right: 130px solid transparent;
+    border-left: 130px solid transparent;
+    margin-left: 71%;
 }
 
 .correccionTInf{
@@ -840,6 +842,12 @@ body{
 .agradecimientos{
     
     background-color: #999;
+    color: white;
+    margin-top: 10%;
+}
+
+.agradecimientos a{
+    color: white;
 }
 
 .oculto{
